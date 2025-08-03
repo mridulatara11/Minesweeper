@@ -31,5 +31,3 @@ A feature-rich Minesweeper game implemented in Java using Swing for the GUI.
 ## Icons
 Place `bomb.png` and `red-flag.png` in the `icons` folder for mine and flag graphics.
 
-## License
-MIT
