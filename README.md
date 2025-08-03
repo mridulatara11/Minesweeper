@@ -1,6 +1,6 @@
 # Minesweeper
 
-A simple Minesweeper game implemented in Java using Swing for the GUI.
+A feature-rich Minesweeper game implemented in Java using Swing for the GUI.
 
 ## How to Run
 
@@ -16,12 +16,17 @@ A simple Minesweeper game implemented in Java using Swing for the GUI.
    ```
 
 ## Features
-- 9x9 grid with 10 mines
-- Timer (5 minutes limit)
-- Restart button
-- Flag mines with right-click
+- Multiple difficulty levels: Easy (9x9, 10 mines), Medium (16x16, 40 mines), Hard (16x30, 99 mines)
+- High score tracking (best time saved between sessions)
+- Timer (5 minutes limit for each game)
+- Mines left counter
+- Restart button for new games
+- Flag mines with right-click (updates mines left counter)
 - Reveal cells with left-click
 - Game over and victory dialogs
+- Menu bar for difficulty and high score display
+- Responsive UI with dynamic grid resizing
+- All mine locations revealed on loss or timeout
 
 ## Icons
 Place `bomb.png` and `red-flag.png` in the `icons` folder for mine and flag graphics.
